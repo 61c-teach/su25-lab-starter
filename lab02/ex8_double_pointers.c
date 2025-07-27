@@ -6,7 +6,7 @@ typedef struct {
     char *name;
 } student_t;
 
-student_t *create_student_t_1(int id) {
+student_t *create_student_1(int id) {
   student_t *student_ptr = malloc(sizeof(student_t));
 
   student_ptr->id = id;
